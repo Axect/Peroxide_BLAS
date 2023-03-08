@@ -477,7 +477,9 @@ checksum = "478c572c3d73181ff3c2539045f6eb99e5491218eae919370993b890cdbdd98e"
 
 [[package]]
 name = "peroxide"
-version = "0.32.1"
+version = "0.33.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6bf4e5a70ccbd7b2e059123a1f956aa2fb87e62594b293542e07f58cec7a3be"
 dependencies = [
  "blas",
  "lapack",

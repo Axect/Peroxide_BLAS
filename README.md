@@ -1,9 +1,8 @@
 # Peroxide with BLAS Example Repo
 
-## Rust `blas-sys` ecosystem
+## Rust `blas` ecosystem
 
-`blas-sys` provides bindings to BLAS and LAPACK, not sources.
-If you want to use any methods of BLAS or LAPACK, then you should determine backend of BLAS.
+Peroxide uses `blas` and `lapack` crate in `O3` feature. But they are just wrapper crates, so we need source crates.
 
 There are several source crates to provide concrete implementations of BLAS and LAPACK.
 
