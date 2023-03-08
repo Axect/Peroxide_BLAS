@@ -1,0 +1,11 @@
+[package]
+name = "peroxide_blas_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+peroxide = { path="../peroxide/", features=["O3"] }
+openblas-src = { version = "*", default-features = false, features = ["system"] }
+blis-src = { version = "0.2", default-features=false, features=["system"] }
